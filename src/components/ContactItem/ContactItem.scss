@@ -1,0 +1,33 @@
+.contacts__item {
+  display: flex;
+  width: 460px;
+  height: 40px;
+  font-size: 24px;
+  margin-bottom: 3px;
+  border: 1px solid rgb(199, 197, 197);
+  border-radius: 5px;
+  padding-left: 10px;
+
+  .contacts__name {
+    margin: auto 0;
+    display: block;
+    width: 220px;
+    font-weight: 800;
+  }
+
+  .contacts__number {
+    margin: auto 0;
+    width: 200px;
+  }
+
+  .removeButton {
+    margin: auto 0;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+  }
+}

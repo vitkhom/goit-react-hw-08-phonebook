@@ -1,0 +1,16 @@
+.contact_form {
+  display: flex;
+  margin-left: 20px;
+
+  .add_input {
+    margin-right: 15px;
+    margin-left: 10px;
+    padding-left: 10px;
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+  }
+}
